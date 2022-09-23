@@ -1,0 +1,95 @@
+body{
+	background-color:#6B6A6E;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:0;
+}
+h1{
+	text-align:center;
+	color:white;
+}
+
+#topo{
+	background-color:black;
+	grid-column-start:1;
+	grid-column-end:6;
+	grid-row-start:1;
+	grid-rowend:2;
+}
+#menu{
+	background-color:#3D556F;
+	grid-column-start:1;
+	grid-column-end:span 5;
+	/*Ulilizando a palavra chave span iremos informar que o elemento irá ocupar uma determinada quantidade de colunasw*/
+	grid-row-start:2;
+	grid-rowend:3;
+	display:flex;
+	justify-content:space-around;
+	
+}
+#menu ul{
+	display:flex;
+	list-style:none;
+	justify-content;space-around;
+	align-intems:center;
+	height:100%;
+}
+#conteudoprincipal{
+	background-color:#A9A8AD;
+	grid-column-start:2;
+	grid-column-end:4;
+	grid-row-start:3;
+	grid-row-end:4;
+}
+#barralateral{
+	background-color:#012E40;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:5;
+}
+.site img{
+	max-width:100%;
+}
+#conteudo1{
+	background-color:#0A3A40;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+#conteudo2{
+	background-color:#127369;
+	grid-column:3/4;
+	grid-row:4/5;
+}
+
+#noticias{
+	background-color:#10403B;
+	padding:5px;
+}
+#noticias .noticia{
+	background-color:blue;
+	width:150px;
+	border-radius:10px;
+	
+}
+#noticias.noticia img{
+	text-align:center;
+	width:70%;
+	margin:10px auto;
+}
+#rodape{
+	background-color:#107361;
+}
+.site{
+	background-color:#265C4B;
+	display:grid;
+	/*Display grid vai habilitar a possibilidade de organizar os elementos internos de um container através de duas dimensões,linhas e colunas.*/
+	grid-template-columns:5% 30% 30% 30% 5%;
+	/*Está propriedade irá informar a quantidade e tamanho das colunas em que o grid será organizado*/
+	grid-template-rows:120px 50px auto auto 100px;
+}
+.noticia{
+	background:#007566;
+}

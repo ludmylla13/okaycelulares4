@@ -1,0 +1,172 @@
+
+body{
+background-color:#D2FFEC;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#topo{
+	background-color:#A3CFBC;
+	text-align:center;
+	grid-column-start:1;
+	grid-column-end:6;
+	grid-row-start:1;
+	grid-rowend:2;
+	
+	display:flex;
+	justify-content:space-around;
+}
+#conteudoprincipal{
+	font-family: 'Bebas Neue', cursive;
+	opacity:0.7;
+	background-color:#A3CFBC;
+	text-align:center;
+	border-radius:20px;
+	font-size:25px;
+	grid-column-start:2;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:4;
+}
+header{
+	background:#A3CFBC;
+	width:100%;
+	align-items:center;
+}
+nav{
+	
+	width:70%;
+}
+ul{
+	display:flex;
+	justify-content: space-evenly;
+	
+}
+ul li{
+	list-style:none;
+}
+ul li a{
+	
+	font-size:1.1rem;
+	text-decoration: none;
+}
+#conteudo1{
+	background-color:#A3CFBC;
+	border:1px solid #A3CFBC;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	border-radius:20px;
+	padding:1rem;
+	margin:1rem;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+#conteudo2{
+	background-color:#A3CFBC;
+	border:1px solid #A3CFBC;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	border-radius:20px;
+	padding:1rem;
+	margin:1rem;
+	grid-column:3/4;
+	grid-row:4/5;
+}
+#conteudo3{
+	background-color:#A3CFBC;
+	border:1px solid #A3CFBC;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	border-radius:20px;
+	padding:1rem;
+	margin:1rem;
+	grid-column:4/5;
+	grid-row:6/7;
+	
+}
+
+#conteudo4{
+	background-color:#A3CFBC;
+	border:1px solid #A3CFBC;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	border-radius:20px;
+	padding:1rem;
+	margin:1rem;
+	grid-column:4/5;
+	grid-row:4/5;
+}
+#conteudo5{
+	background-color:#A3CFBC;
+	border:1px solid #A3CFBC;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	border-radius:20px;
+	padding:1rem;
+	margin:1rem;
+	grid-column:2/3;
+	grid-row:6/7;
+}
+#conteudo6{
+	background-color:#A3CFBC;
+	border:1px solid #A3CFBC;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	border-radius:20px;
+	padding:1rem;
+	margin:1rem;
+	grid-column:3/4;
+	grid-row:6/7;
+}
+
+.site{
+	background-color:#D2FFEC;
+	display:grid;
+	/*Display grid vai habilitar a possibilidade de organizar os elementos internos de um container através de duas dimensões,linhas e colunas.*/
+	grid-template-columns:5% 30% 30% 30% 5%;
+	/*Está propriedade irá informar a quantidade e tamanho das colunas em que o grid será organizado*/
+	grid-template-rows:120px 50px auto auto 100px;
+}
+h3{
+	text-align:center;
+}
+h2{
+font-family: 'Bebas Neue', cursive;	
+opacity:0.7;
+}
+
+.container7{
+	display:flex;
+	
+	
+}
+.rodape-icones{
+	
+	width:10%;
+}
+
+.logo-rodape{
+	text-align:center;	
+	width:90%;
+}
+
+.container img { max-width: 250px; }
+
+.container2 img { max-width: 100px; }
+
+.container3 img { max-width: 190px; }
+
+.container4 img { max-width: 190px; }
+
+.container5 img { max-width: 190px; }
+
+.container6 img { max-width: 150px; }
+
+.container7 img { max-width: 170px; }
+
+.container9 img { max-width: 250px; }
+
+#rodape{
+	background-color:#A3CFBC;
+	
+}
+
+
+
